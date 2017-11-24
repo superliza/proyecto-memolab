@@ -1,0 +1,46 @@
+body {
+  background-color: lightgrey;
+}
+
+hr {
+  border: 2px solid;
+}
+
+div {
+  background-image: url("../assets/img/logo_lab_360.png");
+  background-position: center;
+  /*background-size: cover;*/
+}
+
+.card {
+  border: 2px solid;
+  float: left;
+  height: 200px;
+  margin: 4% 6%;
+  width: 20%;
+}
+
+.card-1:hover {
+  background-image: url("../assets/img/cabin_720.png");
+  background-size: cover;
+}
+
+.card-2:hover {
+  background-image: url("../assets/img/cake_720.png");
+  background-size: cover;
+}
+
+.card-3:hover {
+  background-image: url("../assets/img/circus_720.png");
+  background-size: cover;
+}
+
+.card-4:hover {
+  background-image: url("../assets/img/game_720.png");
+  background-size: cover;
+}
+
+.comodin:hover {
+  background-image: url("../assets/img/gatito.jpg");
+  background-size: cover;
+}
