@@ -3,13 +3,76 @@ body {
 }
 
 hr {
+  border: 2px solid black;
+}
+
+div { /*se cambia div por div.card*/
+  background-image: url("../assets/img/logo-lab.png");
+  background-size: cover;
+}
+
+/* CLASE NUEVA se quita de .card para crear una nueva*/
+.efects {
+  /*Se agregan las siguientes propiedades para lograr efecto de rotacion*/
+  transform-style: preserve-3d;
+  transition: 2s;
+}
+
+.rotation-efect {
+  transform: rotateY(180deg);
+}
+/**/
+.card {
+  border: 2px solid black;
+  float: left;
+  height: 200px;
+  margin: 4% 6%;
+  width: 20%;
+  /*transform-style: preserve-3d;
+  transition: 2s;*/
+  /*transform: rotateY(180deg);*/
+}
+
+.card-1:hover {
+  background-image: url("../assets/img/cabin.png");
+  background-position: center;
+  /*transform: rotateY(180deg);*/
+  /*transform: rotateY(180deg);/*Se agrega propiedad para la rotacion
+  la sacamos a una NUEVA CLASE*/
+}
+
+.card-2:hover {
+  background-image: url("../assets/img/cake.png");
+  background-position: center;
+}
+
+.card-3:hover {
+  background-image: url("../assets/img/circus.png");
+  background-position: center;
+}
+
+.card-4:hover {
+  background-image: url("../assets/img/game.png");
+  background-position: center;
+}
+
+.comodin:hover {
+  background-image: url("../assets/img/gatito.jpg");
+  /*url(https://image.freepik.com/free-vector/colorful-mandala-with-floral-shapes_1159-549.jpg);*/
+}
+
+/*body {
+  background-color: lightgrey;
+}
+
+hr {
   border: 2px solid;
 }
 
 div {
   background-image: url("../assets/img/logo_lab_360.png");
   background-position: center;
-  /*background-size: cover;*/
+  /*background-size: cover;
 }
 
 .card {
@@ -43,4 +106,4 @@ div {
 .comodin:hover {
   background-image: url("../assets/img/gatito.jpg");
   background-size: cover;
-}
+}*/
